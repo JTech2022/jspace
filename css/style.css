@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /*  Estilos Genrales */
+
+.image-container{
+
+    display: flex;
+
+}
+
+.image-container img{
+
+    width: 100%;
+
+}
+
+/* Estilos del Header */
+
+header{
+
+    background: #1f1f1f;
+    padding: 10px 40px; 
+    position: absolute;
+    display: inline-block;
+    z-index: 100;
+    width: 100%;
+    
+}
+
+#logo{
+
+    width: 50px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#logo img{
+
+    border-radius: 100%;
+    border: 3px solid #999595;
+     
+}
+
+/* Esilos del Nav */
+
+nav{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+   
+    overflow: hidden; Limpiamos errores de float
+}
+
+nav ul li:hover {
+    background: hsl(239, 92%, 31%);
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.menu{
+
+    list-style: none;
+    display: flex;
+    /* justify-content: right;
+    align-items: right; */
+    display: inline-block;
+    /* right: 0; */
+    float: left;
+    position: relative;
+    /* padding: 0 20px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero Styles */
+
+#hero{
+
+    position: relative;
+}
+
+#hero #ayuda{
+
+    display: inline-block;
+    width: 100%;
+}
+
+.Information-container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+   
+    padding: 0 50px;
+    display: flex;
+}
+#Foto{
+
+    width: 200px;
+
+}
+
+#Foto img{
+
+    border-radius: 100%;
+
+}
+
+.informacion{
+
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+
+span{
+
+    color: #b5b5b5;
+    margin-bottom: 70px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#descripcion{
+
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Social-icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.Social-icons li{
+    margin-left: 8px;
+   
+
+}
+
+.social-icon img {
+    
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+   
+}
+
